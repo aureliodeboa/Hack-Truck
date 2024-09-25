@@ -22,7 +22,7 @@ O Hackatruck é uma iniciativa educacional que visa capacitar desenvolvedores no
 1. Certifique-se de ter o [Xcode](https://developer.apple.com/xcode/) instalado.
 2. Clone o repositório:
    ```bash
-   git clone https://github.com/aureliodeboa/hackatruck-swift.git
+   git clone https://github.com/aureliodeboa/Hack-Truck.git
 3. Navegue até a pasta do projeto desejado e abra o arquivo .swift no Xcode.
 4. Execute o código diretamente no Xcode.
 
