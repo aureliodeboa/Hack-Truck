@@ -1,4 +1,4 @@
-# 🚚 Hackatruck Swift Project 🇮🇧🇲
+# 🇮🇧🇲 🚚 Hackatruck Swift Project  🏆
 
 Bem-vindo ao meu repositório do projeto Hackatruck. Este espaço será utilizado para documentar meu progresso e compartilhar o conhecimento adquirido durante o curso de desenvolvimento em Swift.
 
@@ -8,7 +8,7 @@ O Hackatruck é uma iniciativa educacional que visa capacitar desenvolvedores no
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/d72eeb2f-f173-4ed8-86ae-c75ed82efdab" width="45%">
-  <img src="https://github.com/user-attachments/assets/c03e00c7-8856-41fc-a65f-f09abb8aca03" width="45%">
+  <img src="https://github.com/user-attachments/assets/69efe4ea-0957-4607-8c86-b15b06d64255" width="45%">
 </p>
 
 
