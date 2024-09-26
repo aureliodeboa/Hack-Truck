@@ -16,13 +16,13 @@ O Hackatruck é uma iniciativa educacional que visa capacitar desenvolvedores no
 
 ## 🗃️ Estrutura do Repositório
 
-- **Aula 01**: Introdução ao Swift e primeiros passos clone do instagram.
+- **Aula 01**: Introdução ao Swift e primeiros passos no clone do Instagram.
 - **Aula 02**: Conceitos intermediários de Swift, entendendo TextField.
 - **Aula 03**: Desenvolvimento de uma calculadora de IMC.
 - **Aula 04 - Desafio 1**: Projeto para aprender Navigation Stack.
-- **Aula 04 - Desafio 2**: Projeo unindo NavigationStack e o NavigationLink.
-- **Aula 05**: Clone do Spotify, usando conceitos NavigationStack, Variaveis e Laços de repetição.
-- **Aula 06**: Maps, entendendo mais sobre o Maps no swiftui.
+- **Aula 04 - Desafio 2**: Projeto unindo Navigation Stack, NavigationLink e SheetViews.
+- **Aula 05**: Clone do Spotify, usando conceitos de Navigation Stack, variáveis e laços de repetição.
+- **Aula 06**: Maps, entendendo mais sobre o Maps no SwiftUI.
 
 ## Como Executar
 
