@@ -13,6 +13,8 @@
 		C24112C72CA1F6B900CDBB62 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C24112C62CA1F6B900CDBB62 /* Preview Assets.xcassets */; };
 		C24112CE2CA1F99100CDBB62 /* modo1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24112CD2CA1F99100CDBB62 /* modo1.swift */; };
 		C24112D02CA1FD1800CDBB62 /* modo2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24112CF2CA1FD1800CDBB62 /* modo2.swift */; };
+		C25F34B12CA5D3C60062B935 /* modo3.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25F34B02CA5D3C60062B935 /* modo3.swift */; };
+		C25F34B32CA5D4E40062B935 /* modo2_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25F34B22CA5D4E40062B935 /* modo2_2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		C24112C62CA1F6B900CDBB62 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C24112CD2CA1F99100CDBB62 /* modo1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modo1.swift; sourceTree = "<group>"; };
 		C24112CF2CA1FD1800CDBB62 /* modo2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modo2.swift; sourceTree = "<group>"; };
+		C25F34B02CA5D3C60062B935 /* modo3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modo3.swift; sourceTree = "<group>"; };
+		C25F34B22CA5D4E40062B935 /* modo2_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modo2_2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				C24112C12CA1F6B800CDBB62 /* ContentView.swift */,
 				C24112CD2CA1F99100CDBB62 /* modo1.swift */,
 				C24112CF2CA1FD1800CDBB62 /* modo2.swift */,
+				C25F34B22CA5D4E40062B935 /* modo2_2.swift */,
+				C25F34B02CA5D3C60062B935 /* modo3.swift */,
 				C24112C32CA1F6B900CDBB62 /* Assets.xcassets */,
 				C24112C52CA1F6B900CDBB62 /* Preview Content */,
 			);
@@ -145,7 +151,9 @@
 			files = (
 				C24112C22CA1F6B800CDBB62 /* ContentView.swift in Sources */,
 				C24112CE2CA1F99100CDBB62 /* modo1.swift in Sources */,
+				C25F34B32CA5D4E40062B935 /* modo2_2.swift in Sources */,
 				C24112C02CA1F6B800CDBB62 /* desafio02aula04App.swift in Sources */,
+				C25F34B12CA5D3C60062B935 /* modo3.swift in Sources */,
 				C24112D02CA1FD1800CDBB62 /* modo2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -10,9 +10,9 @@ import SwiftUI
 struct Cinza: View {
     var body: some View {
         ZStack{
-            Rectangle().fill(.green).edgesIgnoringSafeArea(.top)
+            Rectangle().fill(.gray).edgesIgnoringSafeArea(.top)
             Circle().frame(width: 350)
-            Image(systemName: "paintpalette").foregroundColor(.green).frame(width: 400, height: 400).font(.system(size: 200))
+            Image(systemName: "paintpalette").foregroundColor(.gray).frame(width: 400, height: 400).font(.system(size: 200))
             
 
         }

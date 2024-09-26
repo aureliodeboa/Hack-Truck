@@ -1,44 +1,79 @@
-//
-//  ContentView.swift
-//  desafio02aula04
-//
-//  Created by Turma01-6 on 23/09/24.
-//
-
 import SwiftUI
 
 struct ContentView: View {
+    @State var sheete : Bool = false
     var body: some View {
-        NavigationStack{
-            VStack {
-                Image("logo").resizable().scaledToFit()
-                Spacer()
-                NavigationLink(destination: modo1()){
-                    ZStack{
+        NavigationStack {
+            ZStack {
+             
+                Color(hue:0.663, saturation: 0.513,brightness: 0.267)
+                    .ignoresSafeArea()
+
+                VStack {
+                    
+                    Image("logo")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 250, height: 250)
                         
-                        Rectangle().fill(.pink).frame(width: 250, height: 100)
-                        Text("Modulo 1").font(.title2)
+
+                    Spacer()
+
+                    
+                    NavigationLink(destination: modo1()) {
+                        ZStack {
+                            Rectangle()
+                                .fill(Color.pink)
+                                .frame(width: 250, height: 100)
+                                .cornerRadius(10)
+                            Text("Módulo 1")
+                                .font(.title2)
+                                .foregroundColor(.black)
+                        }
                     }
-                }
-            
-                
-                ZStack{
+
                    
-                    Rectangle().fill(.pink).frame(width: 250, height: 100)
-                    Text("Modulo 1").font(.title2)
-                }
-                ZStack{
+                    NavigationLink(destination: modo2()) {
+                        ZStack {
+                            Rectangle()
+                                .fill(Color.pink)
+                                .frame(width: 250, height: 100)
+                                .cornerRadius(10)
+                            Text("Módulo 2")
+                                .font(.title2)
+                                .foregroundColor(.black)
+                        }
+                    }
+
                    
-                    Rectangle().fill(.pink).frame(width: 250, height: 100)
-                    Text("Modulo 1").font(.title2)
+                    
+                    Button(action: {
+                        sheete.toggle()
+                    }, label: {
+                        ZStack {
+                            Rectangle()
+                                .fill(Color.pink)
+                                .frame(width: 250, height: 100)
+                                .cornerRadius(10)
+                            Text("Módulo 3")
+                                .font(.title2)
+                                .foregroundColor(.black)
+                        }
+
+                    })
+
+
+                    Spacer()
                 }
-                Spacer()
+                .sheet(isPresented: $sheete, content: {
+                    modo3()
+                })
             }
         }
-        
-        .padding()
     }
 }
+
+
 
 #Preview {
     ContentView()

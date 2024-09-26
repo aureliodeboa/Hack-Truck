@@ -40,8 +40,7 @@ struct ContentView: View {
                                 title: { Text("Lista") },
                                 icon: { Image(systemName: "list.bullet") }
                             )
-                        }
-                    
+                        }                    
                 }
             }
             
