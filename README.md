@@ -1,6 +1,7 @@
 # 🇮🇧🇲 🚚 Hackatruck Swift Project  🏆
 
 Bem-vindo ao meu repositório do projeto Hackatruck. Este espaço será utilizado para documentar meu progresso e compartilhar o conhecimento adquirido durante o curso de desenvolvimento em Swift.
+ <img src="https://github.com/user-attachments/assets/d8955535-7a7e-4e23-bb1b-dbd672ecd01e" width="100%">
 
 ## Sobre o Projeto
 
@@ -15,13 +16,13 @@ O Hackatruck é uma iniciativa educacional que visa capacitar desenvolvedores no
 
 ## 🗃️ Estrutura do Repositório
 
-- **Aula 01**: Introdução ao Swift e primeiros passos clone do instagram.
+- **Aula 01**: Introdução ao Swift e primeiros passos no clone do Instagram.
 - **Aula 02**: Conceitos intermediários de Swift, entendendo TextField.
 - **Aula 03**: Desenvolvimento de uma calculadora de IMC.
 - **Aula 04 - Desafio 1**: Projeto para aprender Navigation Stack.
-- **Aula 04 - Desafio 2**: Projeo unindo NavigationStack e o NavigationLink.
-- **Aula 05**: Clone do Spotify, usando conceitos NavigationStack, Variaveis e Laços de repetição.
-- **Aula 06**: Maps, entendendo mais sobre o Maps no swiftui.
+- **Aula 04 - Desafio 2**: Projeto unindo Navigation Stack, NavigationLink e SheetViews.
+- **Aula 05**: Clone do Spotify, usando conceitos de Navigation Stack, variáveis e laços de repetição.
+- **Aula 06**: Maps, entendendo mais sobre o Maps no SwiftUI.
 
 ## Como Executar
 
@@ -41,6 +42,10 @@ O Hackatruck é uma iniciativa educacional que visa capacitar desenvolvedores no
 https://github.com/user-attachments/assets/1ad7b246-0b51-4ffa-b65a-412ea07749bb
 
 https://github.com/user-attachments/assets/4ba6d16c-72e9-4d0b-bb20-5587dbda4f7b
+
+https://github.com/user-attachments/assets/cf676c49-984e-40e3-9dfd-24f950a172a9
+
+https://github.com/user-attachments/assets/d6924bb4-23a1-412d-9261-d5b18f23ffd4
 
 https://github.com/user-attachments/assets/b54f897e-2f56-410d-bd4c-d610c945eb66
 
