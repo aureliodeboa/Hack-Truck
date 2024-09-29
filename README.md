@@ -23,6 +23,7 @@ O Hackatruck é uma iniciativa educacional que visa capacitar desenvolvedores no
 - **Aula 04 - Desafio 2**: Projeto unindo Navigation Stack, NavigationLink e SheetViews.
 - **Aula 05**: Clone do Spotify, usando conceitos de Navigation Stack, variáveis e laços de repetição.
 - **Aula 06**: Maps, entendendo mais sobre o Maps no SwiftUI.
+- **Aula 07**: Rest, requisões à APIs com Swift.
 
 ## Como Executar
 
@@ -50,6 +51,9 @@ https://github.com/user-attachments/assets/d6924bb4-23a1-412d-9261-d5b18f23ffd4
 https://github.com/user-attachments/assets/b54f897e-2f56-410d-bd4c-d610c945eb66
 
 https://github.com/user-attachments/assets/8275756f-48d5-4065-abba-c319291f9862
+
+https://github.com/user-attachments/assets/6c11b5fe-f444-4127-acf7-e3df5b2428a2
+
 
 
 
