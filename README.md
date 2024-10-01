@@ -24,6 +24,7 @@ O Hackatruck é uma iniciativa educacional que visa capacitar desenvolvedores no
 - **Aula 05**: Clone do Spotify, usando conceitos de Navigation Stack, variáveis e laços de repetição.
 - **Aula 06**: Maps, entendendo mais sobre o Maps no SwiftUI.
 - **Aula 07**: Rest, requisões à APIs com Swift.
+- **Aula 07 Desafio**: Desafio pessoal, para requisição a uma api do Valorant.
 
 ## Como Executar
 
@@ -53,6 +54,9 @@ https://github.com/user-attachments/assets/b54f897e-2f56-410d-bd4c-d610c945eb66
 https://github.com/user-attachments/assets/8275756f-48d5-4065-abba-c319291f9862
 
 https://github.com/user-attachments/assets/6c11b5fe-f444-4127-acf7-e3df5b2428a2
+
+https://github.com/user-attachments/assets/e11e4fb7-70f6-4851-9513-5f2ac28a2d63
+
 
 
 
