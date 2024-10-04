@@ -1,0 +1,19 @@
+[
+    {
+        "id": "5102aaa1b19c684a",
+        "type": "http in",
+        "z": "556d9fe1de154d5d",
+        "name": "enviarDADOS",
+        "url": "/escritaPOST",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 190,
+        "y": 200,
+        "wires": [
+            [
+                "068137c22556a7d8"
+            ]
+        ]
+    }
+]

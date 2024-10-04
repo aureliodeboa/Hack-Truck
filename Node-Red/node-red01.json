@@ -1,0 +1,202 @@
+[
+    {
+        "id": "556d9fe1de154d5d",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "59061091b79e4cfa",
+        "type": "cloudantplus",
+        "host": "https://8685b21f-dcdc-4864-a9bc-84e5121ccc12-bluemix.cloudantnosqldb.appdomain.cloud",
+        "name": "Leitura",
+        "useapikey": true
+    },
+    {
+        "id": "6fd157ae404bc1fe",
+        "type": "http in",
+        "z": "556d9fe1de154d5d",
+        "name": "",
+        "url": "/leituraGET",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 180,
+        "y": 100,
+        "wires": [
+            [
+                "8664ede68c59eca4"
+            ]
+        ]
+    },
+    {
+        "id": "e84b60520e27f858",
+        "type": "http response",
+        "z": "556d9fe1de154d5d",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 570,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "8664ede68c59eca4",
+        "type": "cloudantplus in",
+        "z": "556d9fe1de154d5d",
+        "name": "",
+        "cloudant": "59061091b79e4cfa",
+        "database": "alero",
+        "service": "_ext_",
+        "search": "_all_",
+        "design": "",
+        "index": "",
+        "x": 370,
+        "y": 100,
+        "wires": [
+            [
+                "e84b60520e27f858"
+            ]
+        ]
+    },
+    {
+        "id": "5102aaa1b19c684a",
+        "type": "http in",
+        "z": "556d9fe1de154d5d",
+        "name": "enviarDADOS",
+        "url": "/escritaPOST",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 190,
+        "y": 200,
+        "wires": [
+            [
+                "068137c22556a7d8"
+            ]
+        ]
+    },
+    {
+        "id": "068137c22556a7d8",
+        "type": "cloudantplus out",
+        "z": "556d9fe1de154d5d",
+        "name": "",
+        "cloudant": "59061091b79e4cfa",
+        "database": "alero",
+        "service": "_ext_",
+        "payonly": true,
+        "operation": "insert",
+        "x": 370,
+        "y": 200,
+        "wires": [
+            [
+                "416e4fae39ed865e"
+            ]
+        ]
+    },
+    {
+        "id": "416e4fae39ed865e",
+        "type": "http response",
+        "z": "556d9fe1de154d5d",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 590,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "9cd5b4a800458451",
+        "type": "http in",
+        "z": "556d9fe1de154d5d",
+        "name": "update",
+        "url": "/escritaPUT",
+        "method": "put",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 170,
+        "y": 280,
+        "wires": [
+            [
+                "0b71b9617eddedac"
+            ]
+        ]
+    },
+    {
+        "id": "08f2f195df156f20",
+        "type": "http response",
+        "z": "556d9fe1de154d5d",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 470,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "0b71b9617eddedac",
+        "type": "cloudantplus out",
+        "z": "556d9fe1de154d5d",
+        "name": "",
+        "cloudant": "59061091b79e4cfa",
+        "database": "alero",
+        "service": "_ext_",
+        "payonly": true,
+        "operation": "insert",
+        "x": 330,
+        "y": 280,
+        "wires": [
+            [
+                "08f2f195df156f20"
+            ]
+        ]
+    },
+    {
+        "id": "17b61e6d6dece94b",
+        "type": "http in",
+        "z": "556d9fe1de154d5d",
+        "name": "delete",
+        "url": "/delete",
+        "method": "delete",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 150,
+        "y": 360,
+        "wires": [
+            [
+                "c52a8b8d434dd52c"
+            ]
+        ]
+    },
+    {
+        "id": "6cce6c3968d39aa1",
+        "type": "http response",
+        "z": "556d9fe1de154d5d",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 490,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "c52a8b8d434dd52c",
+        "type": "cloudantplus out",
+        "z": "556d9fe1de154d5d",
+        "name": "",
+        "cloudant": "59061091b79e4cfa",
+        "database": "alero",
+        "service": "_ext_",
+        "payonly": true,
+        "operation": "delete",
+        "x": 310,
+        "y": 360,
+        "wires": [
+            [
+                "6cce6c3968d39aa1"
+            ]
+        ]
+    }
+]

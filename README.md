@@ -25,6 +25,8 @@ O Hackatruck é uma iniciativa educacional que visa capacitar desenvolvedores no
 - **Aula 06**: Maps, entendendo mais sobre o Maps no SwiftUI.
 - **Aula 07**: Rest, requisões à APIs com Swift.
 - **Aula 07 Desafio**: Desafio pessoal, para requisição a uma api do Valorant.
+- **Aula 08**: Usando minha propria API de receita, e contruindo um app simples com ela.
+- **Node-Red**: Esquemas do node-red.
 
 ## Como Executar
 
